@@ -9,9 +9,10 @@ body{
     max-width: 400px;
     background-color: white;
     font-family: Figtree;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid black;
     box-shadow: 10px 10px black;
+    padding-bottom: 20px;
 }
 
 .illustration{
@@ -40,7 +41,7 @@ body{
 
 .date{
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 500;
     color: black;
 }
@@ -48,7 +49,7 @@ body{
 h1{
     margin-left: 20px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: black;
     font-weight: 800;
 }
@@ -63,21 +64,26 @@ h1{
     line-height: 30px;
 
 }
+
 .profile{
-    width: 50px;
-    height: 50px;    
-    margin-left: 20px;
-    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;   
 }
+
 .writer-par{
-    display: inline;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
     color: black;
     font-weight: 800;
     font-size: 16px;
 }
+
+.side{
+    margin-left: 20px;
+    display: flex;
+    justify-content: left; /* Centers horizontally */
+}
+
+
 
 
 
